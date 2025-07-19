@@ -1,5 +1,5 @@
 import React from "react";
-import { FiDownload } from "react-icons/fi";
+import { MdOutlineFileDownload } from "react-icons/md";
 function Hero() {
   return (
     <div>
@@ -39,8 +39,8 @@ function Hero() {
   <button className="px-6 py-2 border border-gray-400 rounded-md text-center bg-blue-300 hover:bg-blue-500">
     Contact Me
   </button>
-  <button className="px-6 py-2 border border-gray-400 rounded-md text-center  bg-blue-300 hover:bg-blue-500">
-    Resume<span></span>
+  <button className="px-6 py-2 border border-gray-400 rounded-md text-center flex items-center bg-blue-300 hover:bg-blue-500">
+    Resume<span className="text-[25px] pl-1"><MdOutlineFileDownload /></span>
   </button>
 </div>
 
