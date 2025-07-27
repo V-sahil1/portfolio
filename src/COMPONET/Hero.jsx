@@ -41,8 +41,8 @@ function Hero() {
 
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center lg:justify-start">
-            <a href="#contact">
-            <button className="px-6 py-2 border border-gray-400 rounded-md bg-blue-300 hover:bg-blue-500 text-black">
+            <a href="#contact" className="scroll-smooth">
+            <button className="px-6 scroll-smooth py-2 border border-gray-400 rounded-md bg-blue-300 hover:bg-blue-500 text-black">
               Contact Me
               
             </button>
