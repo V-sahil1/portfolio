@@ -3,7 +3,7 @@ import { MdOutlineFileDownload } from "react-icons/md";
 
 function Hero() {
   return (
-    <div className="w-full min-h-screen relative bg-white">
+    <div className="w-full min-h-screen relative px-[40px] mt-[2rem] bg-white">
       <div className="flex flex-col xl:h-[100vh] lg:flex-row items-center justify-center lg:justify-between px-6 lg:px-20 py-16 lg:py-0 ">
         {/* Left Text Section */}
         <div className="w-full lg:w-1/2  text-center lg:text-left">
@@ -24,15 +24,20 @@ function Hero() {
 
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center lg:justify-start">
+            <a href="#contact">
             <button className="px-6 py-2 border border-gray-400 rounded-md bg-blue-300 hover:bg-blue-500 text-black">
               Contact Me
+              
             </button>
+            </a>
+            <a href="">
             <button className="px-6 py-2 border border-gray-400 rounded-md bg-blue-300 hover:bg-blue-500 text-black flex items-center justify-center">
               Resume
               <span className="text-xl pl-1">
                 <MdOutlineFileDownload />
               </span>
             </button>
+            </a>
           </div>
         </div>
 

@@ -7,16 +7,18 @@ function Navbar() {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="w-full px-6 md:px-12 bg-white shadow-md fixed top-0 z-50">
+    <nav className="w-full  md:px-12 bg-white shadow-md fixed top-0 z-50">
       <div className="flex justify-between items-center h-16">
         {/* Logo */}
         <div className="flex items-center">
+          <a href="/">
           <img src="/image/logo.png" alt="Logo" className="w-24 h-auto" />
+          </a>
         </div>
 
         {/* Desktop Nav Links */}
         <ul className="hidden md:flex items-center gap-10 text-gray-800 font-medium">
-          <li><a href="#home" className="hover:text-blue-500">Home</a></li>
+          <li><a href="/" className="hover:text-blue-500">Home</a></li>
           <li><a href="#about" className="hover:text-blue-500">About</a></li>
           <li><a href="#projects" className="hover:text-blue-500">Projects</a></li>
           <li><a href="#contact" className="hover:text-blue-500">Contact</a></li>

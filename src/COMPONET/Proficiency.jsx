@@ -9,7 +9,7 @@ function Proficiency() {
         </h1>
         <div className="  flex flex-row md:flex-col items-center justify-center mt-9  ">
           <div className="flex items-center flex-col md:flex-row justify-center">
-            <div className="w-full md:w-2/3 flex flex-col items-center justify-center">
+            <div className="w-full md:w-1/2 flex flex-col items-center justify-center">
               {/* frontend */}
               <div className="my-2 ">
                 <p className="text-2xl md:text-3xl mb-6">Frontend</p>
@@ -43,13 +43,13 @@ function Proficiency() {
               </div>
             </div>
 
-            <div className="w-full md:w-1/3">
+            <div className="w-full md:w-1/2">
               <video
                 autoPlay
                 loop
                 muted
                 playsInline
-                className="w-[70%] shadow-sm rounded-2xl"
+                className="w-[90%] shadow-sm rounded-2xl"
               >
                 <source src="./image/about.mp4" />
               </video>

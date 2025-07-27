@@ -69,8 +69,8 @@ function Project() {
 </div>
 
    
-      <div className="relative">
-      <button className="w-[150px] absolute top-[-19px] left-[80px] md:top-[30px] md:left-[43%] h-[50px] flex items-center justify-center border bg-gray-200 rounded-3xl text-gray-700">More Project</button>
+      <div className="relative flex ">
+      <button className="md:w-[150px] w-[130px] h-[40px] absolute top-[-19px] left-[80px] md:top-[30px] md:left-[43%] md:h-[50px] flex items-center justify-center border bg-gray-200 rounded-3xl text-gray-700">More Project</button>
       </div>
 
     </div>
