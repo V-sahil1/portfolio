@@ -7,7 +7,7 @@ function Hero() {
       <div className="flex flex-col xl:h-[100vh] lg:flex-row items-center justify-center lg:justify-between px-6 lg:px-20 py-16 lg:py-0 ">
         {/* Left Text Section */}
         <div className="w-full lg:w-1/2  text-center lg:text-left">
-              <h1 className="font-bold font-Jet text-4xl sm:text-5xl lg:text-6xl mb-6 text-gray-950">
+              <h1 className="font-bold font-Jet text-[27px] md:text-5xl lg:text-6xl mb-6 text-gray-950">
       &lt;
       <span className="text-gray-900">
         <Typewriter
@@ -65,7 +65,7 @@ function Hero() {
             loop
             muted
             playsInline
-            className="w-[90%] max-w-[450px] rounded-xl shadow-lg"
+            className="md:w-[90%] max-w-[450px] md:h-[60vh] h-[50vh] rounded-xl shadow-lg"
           >
             <source src="/image/hero.mp4" type="video/mp4" />
             Your browser does not support the video tag.

@@ -14,7 +14,7 @@ function About() {
           loop
           autoPlay
           playsInline
-          className="w-full h-[60vh] max-w-[450px] rounded-xl shadow-lg"
+          className="w-full md:h-[60vh] h-[50vh] max-w-[450px] rounded-xl shadow-lg"
         >
           <source src="/image/a.mp4" />
           Your browser does not support this video.
@@ -38,7 +38,7 @@ function About() {
               src={img.images}
               key={index}
               alt="tech"
-              className="w-16 h-16 filter grayscale hover:grayscale-0 transition duration-300   cursor-pointer"
+              className="w-16 h-16 filter md:grayscale hover:grayscale-0 hover:scale-120 transition duration-300   cursor-pointer"
             />
           ))}
         </div>
