@@ -26,7 +26,7 @@ function Navbar() {
 
         {/* Hamburger Icon for Mobile */}
         <div className="md:hidden">
-          <button onClick={toggleMenu} className="text-2xl text-gray-700">
+          <button onClick={toggleMenu} className="text-2xl mr-3 text-gray-700">
             {isOpen ? <FiX /> : <FiMenu />}
           </button>
         </div>

@@ -40,15 +40,15 @@ function Hero() {
           </div>
 
           {/* Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center lg:justify-start">
+          <div className="md:flex md:flex-row grid grid-col-2 gap-4 mt-8 items-center justify-center md:justify-start">
             <a href="#contact" className="scroll-smooth">
-            <button className="px-6 scroll-smooth py-2 border border-gray-400 rounded-md bg-blue-300 hover:bg-blue-500 text-black">
+            <button className="px-6 scroll-smooth py-2 border md:h-[41px] md:w-[150px] w-[150px] border-gray-400 rounded-md bg-blue-300 hover:bg-blue-500 text-black">
               Contact Me
               
             </button>
             </a>
             <a href="">
-            <button className="px-6 py-2 border border-gray-400 rounded-md bg-blue-300 hover:bg-blue-500 text-black flex items-center justify-center">
+            <button className="md:px-6 md:py-2 md:h-[41px] md:w-[150px]  border border-gray-400 rounded-md bg-blue-300 hover:bg-blue-500 w-[150px] h-[41px]  text-black flex items-center justify-center">
               Resume
               <span className="text-xl pl-1">
                 <MdOutlineFileDownload />

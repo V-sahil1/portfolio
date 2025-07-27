@@ -14,7 +14,7 @@ function Proficiency() {
               <div className="my-2 ">
                 <p className="text-2xl md:text-3xl mb-6">Frontend</p>
                 <div className="flex items-center gap-4 ">
-                  <div className="bg-gray-300 w-[350px] md:w-[500px] h-[20px] rounded-2xl">
+                  <div className="bg-gray-300 w-[320px] md:w-[500px] h-[20px] rounded-2xl">
                     <div className="bg-blue-400 w-[80%] h-[20px] rounded-l-2xl" />
                   </div>{" "}
                   <span>75%</span>
@@ -25,7 +25,7 @@ function Proficiency() {
               <div className="my-2">
                 <p className="text-2xl md:text-3xl mb-6">backend</p>
                 <div className="flex items-center gap-4 ">
-                  <div className="bg-gray-300 w-[350px] md:w-[500px] h-[20px] rounded-2xl">
+                  <div className="bg-gray-300 w-[320px] md:w-[500px] h-[20px] rounded-2xl">
                     <div className="bg-blue-400 w-[30%] h-[20px] rounded-l-2xl" />
                   </div>{" "}
                   <span>30%</span>
@@ -35,7 +35,7 @@ function Proficiency() {
               <div className="my-2">
                 <p className="text-2xl md:text-3xl mb-6">Programming</p>
                 <div className="flex items-center gap-4 ">
-                  <div className="bg-gray-300 w-[350px] md:w-[500px] h-[20px] rounded-2xl">
+                  <div className="bg-gray-300 w-[320px] md:w-[500px] h-[20px] rounded-2xl">
                     <div className="bg-blue-400 w-[60%] h-[20px] rounded-l-2xl" />
                   </div>{" "}
                   <span>60%</span>
