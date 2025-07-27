@@ -1,6 +1,6 @@
 
 import './App.css'
-import About from './COMPONET/about'
+import About from './COMPONET/About'
 import Certification from './COMPONET/Certification'
 import Contect from './COMPONET/Contect'
 import Education from './COMPONET/Education'
