@@ -47,7 +47,7 @@ function Hero() {
               
             </button>
             </a>
-            <a href="">
+            <a target="_blank" href="https://drive.google.com/file/d/1i18x5EHMLGRmTKjlnF3z5cMZGXLgznT8/view?usp=sharing">
             <button className="md:px-6 md:py-2 md:h-[41px] md:w-[150px]  border border-gray-400 rounded-md bg-blue-300 hover:bg-blue-500 w-[150px] h-[41px]  text-black flex items-center justify-center">
               Resume
               <span className="text-xl pl-1">
