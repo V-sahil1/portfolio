@@ -152,5 +152,5 @@ export const certificates = [
  
 ];
 
-// https://www.npmjs.com/~batman_8
+// 
 export default images;
