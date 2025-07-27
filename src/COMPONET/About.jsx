@@ -48,9 +48,7 @@ function About() {
           <p className="text-gray-600">
             ⚡ I specialize in developing highly interactive front-end user interfaces for both web and mobile applications using modern frameworks like React.js.
           </p>
-          <p className="text-gray-600">
-            ⚡ I build Progressive Web Apps (PWAs) with support for both traditional and Single Page Application (SPA) stacks.
-          </p>
+          
           <p className="text-gray-600">
             ⚡ I also integrate third-party tools like Tailwind CSS, ShadCN UI, GSAP, AOS, and external APIs to build scalable, real-world applications.
           </p>

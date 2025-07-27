@@ -1,25 +1,42 @@
 import React from "react";
 import { MdOutlineFileDownload } from "react-icons/md";
-
+import { Typewriter } from 'react-simple-typewriter';
 function Hero() {
   return (
     <div className="w-full min-h-screen relative px-[40px] mt-[2rem] bg-white">
       <div className="flex flex-col xl:h-[100vh] lg:flex-row items-center justify-center lg:justify-between px-6 lg:px-20 py-16 lg:py-0 ">
         {/* Left Text Section */}
         <div className="w-full lg:w-1/2  text-center lg:text-left">
-          <h1 className="font-bold text-4xl sm:text-5xl lg:text-6xl mb-6 text-gray-950">
-            &lt;Hi, I’m Sahil /&gt;👋
-          </h1>
+              <h1 className="font-bold font-Jet text-4xl sm:text-5xl lg:text-6xl mb-6 text-gray-950">
+      &lt;
+      <span className="text-gray-900">
+        <Typewriter
+          words={['Hi, I’m Sahil 👋']}
+          loop={true}
+          cursor
+          cursorStyle="|"
+          typeSpeed={90}
+          deleteSpeed={50}
+          delaySpeed={1000}
+        />
+      </span>
+      /&gt;
+    </h1>
           <p className="font-medium text-lg sm:text-xl text-gray-600">
             A passionate Frontend Developer 🚀 skilled in building responsive and interactive web applications using <strong>ReactJS, HTML, CSS, JavaScript, Tailwind CSS</strong>, and <strong>GSAP</strong>. Focused on creating smooth UI/UX and modern user experiences.
           </p>
 
           {/* Social Icons */}
           <div className="flex gap-5 justify-center lg:justify-start mt-6">
+            <a target="_blank" href="https://www.linkedin.com/in/sahil-vardekar-9430212a7/">
             <img src="/image/linkedin.jpg" alt="LinkedIn" className="w-8 h-8 object-contain" />
-            <img src="/image/github.png" alt="GitHub" className="w-8 h-8 object-contain" />
-            <img src="/image/lc.png" alt="LeetCode" className="w-8 h-8 object-contain" />
-            <img src="/image/inst.jpg" alt="Instagram" className="w-8 h-8 object-contain" />
+            </a>
+            <a target="_blank" href="https://github.com/V-sahil1">
+            <img src="/image/github.png" alt="GitHub" className="w-8 h-8 object-contain" /></a>
+            <a target="_blank" href="https://leetcode.com/u/sahil__26/">
+            <img src="/image/lc.png" alt="LeetCode" className="w-8 h-8 object-contain" /></a>
+            <a target="_blank" href="https://www.instagram.com/v_sahil08/?igsh=aHY0dHluMTJ0Zm8x#">
+            <img src="/image/inst.jpg" alt="Instagram" className="w-8 h-8 object-contain" /></a>
           </div>
 
           {/* Buttons */}

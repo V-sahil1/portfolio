@@ -3,7 +3,7 @@ import images, { project } from "../../consent";
 
 function Project() {
   return (
-    <div className="min-h-screen px-[40px] mt-[2rem] mr-0px ">
+    <div id="projects" className="min-h-screen px-[40px] mt-[2rem] mr-0px ">
       <h1 className="text-[56px] mb-2">Projects</h1>
       <p className="text-gray-500 text-[16px]">
         GAINED HANDS-ON EXPERIENCE WITH DEPLOYMENT, VERSION CONTROL, AND MODERN
@@ -70,7 +70,7 @@ function Project() {
 
    
       <div className="relative flex ">
-      <button className="md:w-[150px] w-[130px] h-[40px] absolute top-[-19px] left-[80px] md:top-[30px] md:left-[43%] md:h-[50px] flex items-center justify-center border bg-gray-200 rounded-3xl text-gray-700">More Project</button>
+      <button className="md:w-[150px] w-[130px] h-[40px] absolute top-[-19px] left-[80px] md:top-[30px] md:left-[43%] md:h-[50px] flex items-center justify-center border bg-gray-200 hover:bg-gray-100 rounded-3xl text-gray-700">More Project</button>
       </div>
 
     </div>

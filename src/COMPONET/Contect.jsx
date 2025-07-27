@@ -16,19 +16,19 @@ function Contect() {
 
           <p className="text-[22px]">Open for opportunities: Yes</p>
           <div className="flex items-center justify-center mt-6  gap-5 ">
-            <a href="">
+            <a target="_blank" href="https://www.linkedin.com/in/sahil-vardekar-9430212a7/">
               <img src="/image/linkedin.jpg" alt="" className="w-[45px] cursor-pointer" />
             </a>
-            <a href="">
+            <a target="_blank" href="https://github.com/V-sahil1">
               <img src="/image/github.png" alt="" className="w-[45px] cursor-pointer "/>
             </a>
-            <a href="">
+            <a target="_blank" href="https://leetcode.com/u/sahil__26/">
               <img src="/image/lc.png" alt="" className="w-[45px] mt-[1px] cursor-pointer"/>
             </a>
-            <a href="">
+            <a target="_blank" href="https://www.npmjs.com/~batman_8">
               <img src="/image/npm.png" alt="" className="w-[45px] mt-[1px] cursor-pointer"/>
             </a>
-            <a href="">
+            <a target="_blank" href="https://www.instagram.com/v_sahil08/?igsh=aHY0dHluMTJ0Zm8x#">
               <img src="/image/inst.jpg" alt="" className="w-[40px]  cursor-pointer"/>
             </a>
           </div>

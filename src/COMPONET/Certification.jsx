@@ -18,7 +18,7 @@ function Certification() {
               <p className='text-center text-[17px] text-gray-500 p-2 pb-4'>{ceri.description}</p>
               <div className='flex items-center justify-center'>
                  <a  href={ceri.drive}
-              target='_blank'><button className='bg-gray-800 text-white text-center flex items-center w-[160px] md:w-[150px] justify-center rounded-md h-[35px]'>View Certificate</button></a>
+              target='_blank'><button className='bg-gray-800 hover:bg-gray-700 text-white text-center flex items-center w-[160px] md:w-[150px] justify-center rounded-md h-[35px]'>View Certificate</button></a>
               </div>
              
             </div>
