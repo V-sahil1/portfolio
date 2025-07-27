@@ -8,14 +8,14 @@ import Hero from './COMPONET/Hero'
 import Navbar from './COMPONET/Navbar'
 import Proficiency from './COMPONET/Proficiency'
 import Project from './COMPONET/Project'
-import X from './COMPONET/x'
+
 
 function App() {
   
 
   return (
    <>
-   <div className="">
+   <div >
    <Navbar/>
    <Hero/>
    <About/>
