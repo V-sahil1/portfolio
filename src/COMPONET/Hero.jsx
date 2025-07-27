@@ -59,7 +59,7 @@ function Hero() {
         </div>
 
         {/* Right Video Section */}
-        <div className="w-full lg:w-1/2 mt-10 lg:mt-0 flex justify-center">
+        <div className="w-full lg:w-1/2 mt-10 lg:mt-0  justify-center hidden md:block">
           <video
             autoPlay
             loop

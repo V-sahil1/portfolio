@@ -8,7 +8,7 @@ function About() {
       className="min-h-screen flex flex-col xl:flex-row justify-center items-center px-6 py-10 gap-8"
     >
       {/* Video Section */}
-      <div className="w-full xl:w-1/3 flex justify-center">
+      <div className="w-full xl:w-1/3  justify-center hidden md:block">
         <video
           muted
           loop
