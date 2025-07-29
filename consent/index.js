@@ -149,6 +149,16 @@ export const certificates = [
     drive:
       "https://drive.google.com/file/d/16Tc5cs2LJ2SicqPizWthxO6w7dC4smC0/view?usp=sharing",
   },
+    {
+    id: 3,
+    Name: "Node.js",
+      org: "Scaler",
+    img: "/image/scaler.png",
+    description:"Certified in Node.js with hands-on skills in Express, RESTful APIs, middleware, MongoDB integration, and backend architecture for scalable apps."
+    ,
+    drive:
+      "https://drive.google.com/file/d/1lHScX6vdDU6zrHODlgTkv6bbJcohvCbg/view?usp=sharing",
+  },
  
 ];
 
