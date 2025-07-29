@@ -23,7 +23,7 @@ function Proficiency() {
               {/* backend */}
 
               <div className="my-2">
-                <p className="text-2xl md:text-3xl mb-6">backend</p>
+                <p className="text-2xl md:text-3xl mb-6">Backend</p>
                 <div className="flex items-center gap-4 ">
                   <div className="bg-gray-300 w-[300px] md:w-[500px] h-[20px] rounded-2xl">
                     <div className="bg-blue-400 w-[30%] h-[20px] rounded-l-2xl" />
