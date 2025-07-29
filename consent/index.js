@@ -124,7 +124,7 @@ export const project = [
     techStack: [
       "/image/react.png",
       "/image/css.png",
-      "/image/axios.png",
+      "/image/js.png",
       "/image/vercel.png",
     ],
   },
