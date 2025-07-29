@@ -16,7 +16,7 @@ function X() {
             <img
               src={project.img}
               alt={project.name}
-              className="w-[85%] h-48 object-contain  rounded-md"
+              className="md:w-[85%] md:h-48 w-[92%] h-40 object-contain  rounded-md"
             />
           </div>
     
@@ -47,7 +47,7 @@ function X() {
               href={project.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-2 bg-gray-800 text-white text-sm flex items-center justify-center rounded-md md:w-[130px] md:h-[40px] w-[100px] h-[50px] hover:bg-gray-700 transition"
+              className="px-4 py-2 bg-gray-800 text-white text-sm flex items-center justify-center rounded-md md:w-[130px] md:h-[40px] w-[100px]  h-[50px] hover:bg-gray-700 transition"
             >
               Source Code
             </a>
