@@ -9,14 +9,14 @@ function X() {
       {project.map((project, index) => (
         <div
           key={index}
-          className="bg-gray-100 rounded-xl w-[90%] shadow-md p-5 flex flex-col  justify-between transition-transform hover:scale-[1.02] duration-300 md:mx-9"
+          className="bg-gray-100 rounded-xl  shadow-md p-5 flex flex-col   justify-between transition-transform hover:scale-[1.02] duration-300 md:mx-9"
         >
           {/* Project Image */}
           <div className="flex items-center justify-center mb-4">
             <img
               src={project.img}
               alt={project.name}
-              className="md:w-[85%] md:h-48 w-[92%] h-40 object-contain  rounded-md"
+              className="md:w-[85%] md:h-48 w-[92%] object-contain  rounded-md"
             />
           </div>
     

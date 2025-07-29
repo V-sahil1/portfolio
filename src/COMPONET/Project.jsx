@@ -11,7 +11,7 @@ function Project() {
         GAINED HANDS-ON EXPERIENCE WITH DEPLOYMENT, VERSION CONTROL, AND MODERN
         FRONTEND TOOLS
       </p>
-      <div className="grid md:grid-cols-3 gap-6 px-6 py-8">
+      <div className="grid md:grid-cols-3 gap-6 px-4 py-8">
   {project.slice(0, 3).map((project, index) => (
     <div
       key={index}
