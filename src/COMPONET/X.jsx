@@ -9,7 +9,7 @@ function X() {
       {project.map((project, index) => (
         <div
           key={index}
-          className="bg-gray-100 rounded-xl  shadow-md p-5 flex flex-col   justify-between transition-transform hover:scale-[1.02] duration-300 md:mx-9"
+          className="bg-gray-100 rounded-xl  shadow-md p-5 flex flex-col  items-center justify-between transition-transform hover:scale-[1.02] duration-300 md:mx-9"
         >
           {/* Project Image */}
           <div className="flex items-center justify-center mb-4">
