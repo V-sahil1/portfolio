@@ -28,6 +28,7 @@ function App() {
               <About />
               <Proficiency />
               <Education />
+             
               <Project />
               <Certification />
               <Contect />
