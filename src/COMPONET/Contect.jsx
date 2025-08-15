@@ -5,7 +5,7 @@ function Contect() {
     <div id="contact" className="min-h-[60vh] px-[40px] mt-[2rem] mr-0px ">
       <div className="md:flex md:flex-row grid grid-row-2  justify-between">
         <div className="flex flex-col items-start justify-start">
-          <h1 className="md:text-[40px] text-[30px] text-gray-900 ">Reach Out to me!</h1>
+          <h1 className="md:text-[40px] text-[30px]  bg-gradient-to-r  from-gray-800 to-gray-300 bg-clip-text text-transparent ">Reach Out to me!</h1>
           <p className="uppercase text-[18px] text-gray-600 mb-4">
             Discuss a project or just want to say hi? My Inbox is open for all.
           </p>
@@ -13,8 +13,13 @@ function Contect() {
           <p className="flex text-[20px] uppercase gap-2 font-[500] text-gray-800 mb-2 items-center justify-center">
             <IoLocationSharp  /> Surat
           </p>
+<div className="mt-4 p-4 bg-green-50 border border-green-300 rounded-lg shadow-md animate-fadeIn">
+  <p className="text-[22px] font-semibold text-green-700 flex items-center gap-2 animate-glow">
+    🚀 Open for Opportunities
+  </p>
+</div>
 
-          <p className="text-[22px]">Open for opportunities: Yes</p>
+
           <div className="flex items-center justify-center mt-6  gap-5 ">
             <a target="_blank" href="https://www.linkedin.com/in/sahil-vardekar-9430212a7/">
               <img src="/image/linkedin.jpg" alt="" className="w-[45px] cursor-pointer" />

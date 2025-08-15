@@ -9,9 +9,9 @@ function Hero() {
         <div className="w-full lg:w-1/2  text-center lg:text-left">
               <h1 className="font-bold font-Jet text-[27px] md:text-5xl lg:text-6xl mb-6 text-gray-950">
       &lt;
-      <span className="text-gray-900">
+      <span className="bg-gradient-to-r from-indigo-600  to-sky-400 bg-clip-text text-transparent">
         <Typewriter
-          words={['Hi, I’m Sahil 👋']}
+          words={['Hi, I’m Sahil']}
           loop={true}
           cursor
           cursorStyle="|"
@@ -19,12 +19,19 @@ function Hero() {
           deleteSpeed={50}
           delaySpeed={1000}
         />
+     
       </span>
+         <span>👋</span>
       /&gt;
     </h1>
-          <p className="font-medium text-lg sm:text-xl text-gray-600">
-            A passionate Frontend Developer 🚀 skilled in building responsive and interactive web applications using <strong>ReactJS, HTML, CSS, JavaScript, Tailwind CSS</strong>, and <strong>GSAP</strong>. Focused on creating smooth UI/UX and modern user experiences.
-          </p>
+  <p className="font-medium text-lg sm:text-xl text-gray-700">
+  A passionate <span className="bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent font-semibold">Frontend Developer <span className="text-gray-50">🚀</span></span> skilled in building responsive and interactive web applications using <strong className="text-blue-600">ReactJS, HTML, CSS, JavaScript, Tailwind CSS</strong>, and <strong className="text-purple-600">GSAP</strong>. Focused on creating smooth UI/UX and modern user experiences.
+</p>
+
+
+
+
+
 
           {/* Social Icons */}
           <div className="flex gap-5 justify-center lg:justify-start mt-6">
@@ -42,13 +49,27 @@ function Hero() {
           {/* Buttons */}
           <div className="md:flex md:flex-row grid grid-col-2 gap-4 mt-8 items-center justify-center md:justify-start">
             <a href="#contact" className="scroll-smooth">
-            <button className="px-6 scroll-smooth py-2 border md:h-[41px] md:w-[150px] w-[150px] border-gray-400 rounded-md bg-blue-300 hover:bg-blue-500 text-black">
+            <button className="md:px-6 md:py-2 md:h-[41px] md:w-[150px] 
+  w-[150px] h-[41px] 
+  bg-gradient-to-r from-indigo-700 to-sky-400 
+  hover:from-blue-400 hover:to-blue-500 
+  border border-gray-300 rounded-md 
+  text-white font-medium 
+  
+  flex items-center justify-center transition-all duration-300">
               Contact Me
               
             </button>
             </a>
             <a target="_blank" href="https://drive.google.com/file/d/1LRWCCfZa1OX6AJFUapC8qeC0i_0MF0EC/view?usp=sharing">
-            <button className="md:px-6 md:py-2 md:h-[41px] md:w-[150px]  border border-gray-400 rounded-md bg-blue-300 hover:bg-blue-500 w-[150px] h-[41px]  text-black flex items-center justify-center">
+       <button className="md:px-6 md:py-2 md:h-[41px] md:w-[150px] 
+  w-[150px] h-[41px] 
+  bg-gradient-to-r from-indigo-700 to-sky-400 
+  hover:from-blue-400 hover:to-blue-500 
+  border border-gray-300 rounded-md 
+  text-white font-medium 
+  
+  flex items-center justify-center transition-all duration-300">
               Resume
               <span className="text-xl pl-1">
                 <MdOutlineFileDownload />
@@ -59,7 +80,7 @@ function Hero() {
         </div>
 
         {/* Right Video Section */}
-        <div className="w-full lg:w-1/2 mt-10 lg:mt-0  justify-center hidden md:block">
+        <div className="w-full lg:w-1/2 mt-10 lg:mt-0 ml-12  justify-center hidden md:block">
           <video
             autoPlay
             loop

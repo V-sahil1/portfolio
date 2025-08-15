@@ -4,15 +4,15 @@ function Proficiency() {
   return (
     <>
       <div className="min-h-screen px-[40px] mt-[2rem] w-full">
-        <h1 className=" text-center font-bold text-4xl md:text-5xl ">
+        <h1 className=" text-center font-bold text-4xl md:text-6xl bg-gradient-to-r w-[300px] pb-3 from-gray-800 to-gray-400 bg-clip-text text-transparent">
           Proficiency
         </h1>
-        <div className="  flex flex-row md:flex-col items-center justify-center mt-9  ">
+        <div className="  flex flex-row md:flex-col items-center justify-center md:mt-0 mt-6  ">
           <div className="flex items-center flex-col md:flex-row justify-center">
             <div className="w-full md:w-1/2 flex flex-col items-center justify-center">
               {/* frontend */}
               <div className="my-2 ">
-                <p className="text-2xl md:text-3xl mb-6">Frontend</p>
+                <p className="text-2xl md:text-3xl mb-6 ">Frontend</p>
                 <div className="flex items-center gap-4 ">
                   <div className="bg-gray-300 w-[300px] md:w-[500px] h-[20px] rounded-2xl">
                     <div className="bg-blue-400 w-[80%] h-[20px] rounded-l-2xl" />

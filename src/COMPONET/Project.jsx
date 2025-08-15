@@ -6,7 +6,7 @@ function Project() {
   const navigate = useNavigate()
   return (
     <div id="projects" className="min-h-screen px-[40px] mt-[2rem] mr-0px ">
-      <h1 className="text-[56px] mb-2">Projects</h1>
+      <h1 className="text-[56px] w-[200px] mb-2 bg-gradient-to-r from-gray-800 to-gray-400 bg-clip-text text-transparent">Projects</h1>
       <p className="text-gray-500 text-[16px]">
         GAINED HANDS-ON EXPERIENCE WITH DEPLOYMENT, VERSION CONTROL, AND MODERN
         FRONTEND TOOLS
@@ -48,12 +48,13 @@ function Project() {
       </div>
 
       {/* Buttons */}
-      <div className="flex md:justify-between items-center  mt-auto">
+      <div className="flex md:justify-between items-center  mt-auto ">
         <a
           href={project.github}
           target="_blank"
           rel="noopener noreferrer"
-          className="px-4 py-2 bg-gray-800 w-[100px] h-[50px] md:w-[130px] md:h-[40px] md:pb-2.5 flex items-center justify-center mr-3 text-white text-sm rounded-md hover:bg-gray-700 transition"
+          className="px-4 py-2 bg-gray-800 w-[100px]  h-[50px] md:w-[130px] md:h-[40px] md:pb-2.5 flex items-center justify-center mr-9 text-white text-sm rounded-md bg-gradient-to-r from-indigo-700 to-sky-400 
+  hover:from-blue-400 hover:to-blue-500  transition"
         >
           Source Code
         </a>
@@ -61,7 +62,8 @@ function Project() {
           href={project.vercel}
           target="_blank"
           rel="noopener noreferrer"
-          className="px-4 py-2 bg-teal-600 text-white text-sm rounded-md md:pb-2.5 md:w-[130px] md:h-[40px] w-[100px] h-[50px] flex items-center justify-center mr-3 hover:bg-teal-500 transition"
+          className="px-4 py-2  bg-gradient-to-r from-teal-700 to-green-400 
+  hover:from-blue-400 hover:to-blue-500  text-white text-sm rounded-md md:pb-2.5 md:w-[130px] md:h-[40px] w-[100px] h-[50px] flex items-center justify-center mr-3 hover:bg-teal-500 transition"
         >
           Visit Website
         </a>

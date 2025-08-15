@@ -4,7 +4,7 @@ import { certificates } from '../../consent'
 function Certification() {
   return (
     <div className='min-h-screen px-[40px] mt-[2rem] mr-0px '>
-        <h1 className='md:text-4xl text-[31px] font-bold'>Certifications 🏆</h1>
+        <h1 className='md:text-5xl text-[31px] font-bold w-[430px] bg-gradient-to-r  from-gray-800 to-gray-300 bg-clip-text text-transparent '>Certifications <span className='text-gray-50'>🏆</span></h1>
         <p className='md:text-[20px] text-[16px] mt-4 text-gray-500'>CERTIFICATIONS THAT HIGHLIGHT MY SKILLS AND LEARNING JOURNEY IN WEB DEVELOPMENT AND BEYOND!</p>
 
         <div className='grid grid-row-3 md:flex  justi gap-6 px-6 py-8 '>
@@ -18,7 +18,18 @@ function Certification() {
               <p className='text-center text-[17px] text-gray-500 p-2 pb-4'>{ceri.description}</p>
               <div className='flex items-center justify-center'>
                  <a  href={ceri.drive}
-              target='_blank'><button className='bg-gray-800 hover:bg-gray-700 text-white text-center flex items-center w-[160px] md:w-[150px] justify-center rounded-md h-[35px]'>View Certificate</button></a>
+              target='_blank'><button className="bg-gradient-to-r from-gray-700/90 to-gray-500/80 
+  backdrop-blur-md text-white font-medium 
+  flex items-center w-[170px] md:w-[160px] justify-center 
+  rounded-md h-[40px] border border-gray-400/30 
+  hover:scale-105 hover:bg-gradient-to-r hover:from-gray-800 hover:to-gray-600 
+  transition-all duration-300">
+  View Certificate
+</button>
+
+
+
+  </a>
               </div>
              
             </div>
