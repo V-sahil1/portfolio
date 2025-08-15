@@ -50,14 +50,14 @@ function Education() {
         Education
       </h1>
       <br />
-      <div className="mt-5">
+      <div className="mt-5 ">
         {/* First Education Block */}
-        <div className="flex mx-8 flex-col md:flex-row edu-item">
-          <div className="md:mr-9 pl-5 mb-4 edu-logo">
+        <div className="flex mx-8 flex-col md:flex-row edu-item text-gray-800 ">
+          <div className="md:mr-9 pl-5 mb-4 edu-logo " >
             <img src="/image/gec.png" alt="" />
           </div>
           <div className="edu-text">
-            <h1 className="text-2xl font-bold mb-5">
+            <h1 className="text-2xl font-bold mb-5 ">
               GOVERNMENT ENGINEERING COLLEGE, BHARUCH
             </h1>
             <h2 className="font-semibold mb-2 text-[17px]">
@@ -79,7 +79,7 @@ function Education() {
         <p className="bg-gray-200 h-[5px] mt-6 mb-6 transition-all rounded-2xl duration-900 hover:w-full transform hover:bg-blue-300 w-full md:w-[70%]" />
 
         {/* Second Education Block */}
-        <div className="flex mx-8 flex-col md:flex-row edu-item">
+        <div className="flex mx-8 flex-col md:flex-row edu-item text-gray-800">
           <div className="md:mr-9 pl-5 mb-4 edu-logo">
             <img src="/image/T.png" alt="" className="w-[185px]" />
           </div>

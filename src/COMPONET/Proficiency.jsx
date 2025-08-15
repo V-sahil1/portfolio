@@ -3,7 +3,7 @@ import React from "react";
 function Proficiency() {
   return (
     <>
-      <div className="min-h-screen px-[40px] mt-[2rem] w-full">
+      <div className="md:min-h-screen min-h-[60vh] px-[40px] mt-[2rem] w-full">
         <h1 className=" text-center font-bold text-4xl md:text-6xl bg-gradient-to-r w-[300px] pb-3 from-gray-800 to-gray-400 bg-clip-text text-transparent">
           Proficiency
         </h1>
@@ -43,7 +43,7 @@ function Proficiency() {
               </div>
             </div>
 
-            <div className="w-full md:w-1/2 hidden md:block">
+            <div className="w-full md:w-1/2 hidden  md:block">
               <video
                 autoPlay
                 loop

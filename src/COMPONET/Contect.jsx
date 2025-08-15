@@ -5,7 +5,7 @@ function Contect() {
     <div id="contact" className="min-h-[60vh] px-[40px] mt-[2rem] mr-0px ">
       <div className="md:flex md:flex-row grid grid-row-2  justify-between">
         <div className="flex flex-col items-start justify-start">
-          <h1 className="md:text-[40px] text-[30px]  bg-gradient-to-r  from-gray-800 to-gray-300 bg-clip-text text-transparent ">Reach Out to me!</h1>
+          <h1 className="md:text-[40px] text-[30px]  bg-gradient-to-r  from-gray-700 to-gray-400 bg-clip-text text-transparent ">Reach Out to me!</h1>
           <p className="uppercase text-[18px] text-gray-600 mb-4">
             Discuss a project or just want to say hi? My Inbox is open for all.
           </p>

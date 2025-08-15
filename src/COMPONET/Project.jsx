@@ -5,8 +5,8 @@ import { useNavigate } from "react-router-dom";
 function Project() {
   const navigate = useNavigate()
   return (
-    <div id="projects" className="min-h-screen px-[40px] mt-[2rem] mr-0px ">
-      <h1 className="text-[56px] w-[200px] mb-2 bg-gradient-to-r from-gray-800 to-gray-400 bg-clip-text text-transparent">Projects</h1>
+    <div id="projects" className="md:min-h-screen px-[40px] mt-[2rem] mr-0px ">
+      <h1 className="text-[56px] w-[220px] mb-2 bg-gradient-to-r from-gray-800 to-gray-400 bg-clip-text text-transparent">Projects</h1>
       <p className="text-gray-500 text-[16px]">
         GAINED HANDS-ON EXPERIENCE WITH DEPLOYMENT, VERSION CONTROL, AND MODERN
         FRONTEND TOOLS
@@ -74,7 +74,7 @@ function Project() {
 
    
       <div className="relative flex ">
-      <button onClick={()=>{navigate('/projects'); window.scrollTo(0,0)}} className="md:w-[150px] w-[130px] h-[40px] absolute top-[-19px] left-[80px] md:top-[30px] md:left-[43%] md:h-[50px] flex items-center justify-center border bg-gray-200 hover:bg-gray-100 rounded-3xl text-gray-700">More Project</button>
+      <button onClick={()=>{navigate('/projects'); window.scrollTo(0,0)}} className="md:w-[150px] w-[130px] h-[40px] absolute top-[-19px] left-[80px] md:top-[30px] md:left-[43%] md:h-[50px] flex items-center justify-center border-2 bg-gray-200 hover:bg-gray-100 rounded-3xl bg-gradient-to-r from-gray-600 text-gray-100 to-gray-300 md:my-0 my-6 ">More Projects</button>
       </div>
 
     </div>

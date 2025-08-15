@@ -47,7 +47,8 @@ function X() {
               href={project.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-2 bg-gray-800 text-white text-sm flex items-center justify-center rounded-md md:w-[130px] md:h-[40px] w-[100px]  h-[50px] hover:bg-gray-700 transition"
+              className="px-4 py-2 bg-gray-800 w-[100px]  h-[50px] md:w-[130px] md:h-[40px] md:pb-2.5 flex items-center justify-center mr-9 text-white text-sm rounded-md bg-gradient-to-r from-indigo-700 to-sky-400 
+  hover:from-blue-400 hover:to-blue-500  transition"
             >
               Source Code
             </a>
@@ -55,7 +56,8 @@ function X() {
               href={project.vercel}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-2 bg-teal-600 text-white text-sm flex items-center justify-center rounded-md md:w-[130px] md:h-[40px] w-[100px] h-[50px] hover:bg-teal-500 transition"
+              className="px-4 py-2  bg-gradient-to-r from-teal-700 to-green-400 
+  hover:from-blue-400 hover:to-blue-500  text-white text-sm rounded-md md:pb-2.5 md:w-[130px] md:h-[40px] w-[100px] h-[50px] flex items-center justify-center mr-3 hover:bg-teal-500 transition"
             >
               Visit Website
             </a>

@@ -3,7 +3,7 @@ import { MdOutlineFileDownload } from "react-icons/md";
 import { Typewriter } from 'react-simple-typewriter';
 function Hero() {
   return (
-    <div className="w-full min-h-screen relative px-[40px] mt-[2rem] bg-white">
+    <div className="w-full md:min-h-screen min-h-[75vh] relative px-[40px] mt-[2rem] bg-white">
       <div className="flex flex-col xl:h-[100vh] lg:flex-row items-center justify-center lg:justify-between px-6 lg:px-20 py-16 lg:py-0 ">
         {/* Left Text Section */}
         <div className="w-full lg:w-1/2  text-center lg:text-left">

@@ -3,7 +3,7 @@ import { certificates } from '../../consent'
 
 function Certification() {
   return (
-    <div className='min-h-screen px-[40px] mt-[2rem] mr-0px '>
+    <div className='min-h-screen px-[40px] md:mt-[2rem] mr-0px  mt-[90px] '>
         <h1 className='md:text-5xl text-[31px] font-bold w-[430px] bg-gradient-to-r  from-gray-800 to-gray-300 bg-clip-text text-transparent '>Certifications <span className='text-gray-50'>🏆</span></h1>
         <p className='md:text-[20px] text-[16px] mt-4 text-gray-500'>CERTIFICATIONS THAT HIGHLIGHT MY SKILLS AND LEARNING JOURNEY IN WEB DEVELOPMENT AND BEYOND!</p>
 
