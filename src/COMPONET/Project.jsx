@@ -63,7 +63,7 @@ function Project() {
           target="_blank"
           rel="noopener noreferrer"
           className="px-4 py-2  bg-gradient-to-r from-teal-700 to-green-400 
-  hover:from-blue-400 hover:to-blue-500  text-white text-sm rounded-md md:pb-2.5 md:w-[130px] md:h-[40px] w-[100px] h-[50px] flex items-center justify-center mr-3 hover:bg-teal-500 transition"
+  hover:from-green-400 hover:to-teal-700  text-white text-sm rounded-md md:pb-2.5 md:w-[130px] md:h-[40px] w-[100px] h-[50px] flex items-center justify-center mr-3 hover:bg-teal-500 transition"
         >
           Visit Website
         </a>
