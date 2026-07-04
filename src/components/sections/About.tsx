@@ -38,16 +38,18 @@ export function About() {
       <div className="mt-14 grid items-center gap-12 lg:grid-cols-5">
         {/* Portrait */}
         <Reveal className="lg:col-span-2">
-          <div className="relative mx-auto max-w-sm">
+          <div className="relative mx-auto max-w-xs sm:max-w-sm">
             <div className="absolute -inset-3 -z-10 rounded-3xl bg-gradient-to-br from-brand-500/30 to-accent-500/30 blur-2xl" />
-            <img
-              src={site.avatar}
-              alt={`Portrait of ${site.name}`}
-              loading="lazy"
-              width={420}
-              height={480}
-              className="w-full rounded-3xl border border-white/10 object-cover shadow-2xl"
-            />
+            <div className="aspect-[4/5] w-full overflow-hidden rounded-3xl border border-white/10 shadow-2xl">
+              <img
+                src={site.avatar}
+                alt={`Portrait of ${site.name}`}
+                loading="lazy"
+                width={420}
+                height={525}
+                className="h-full w-full object-cover object-top"
+              />
+            </div>
             <div className="glass absolute -bottom-5 -right-4 rounded-2xl px-4 py-3 shadow-lg">
               <p className="font-display text-sm font-bold text-slate-900 dark:text-white">
                 Full-Stack

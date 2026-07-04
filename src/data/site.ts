@@ -1,4 +1,7 @@
 import type { SiteConfig } from "@/types";
+// Bundled by Vite (hashed + verified at build time) — deployment-safe.
+// Replace src/assets/profile-formal.jpg with your professional photo.
+import profileFormal from "@/assets/profile-formal.jpg";
 
 /**
  * Central site configuration.
@@ -27,5 +30,5 @@ export const site: SiteConfig = {
   location: "Surat, India",
   resumeUrl:
     "https://drive.google.com/file/d/149SfgN1UlWrI56dj0EgwwWQOKnKavGLs/view?usp=sharing",
-  avatar: "/image/photo.jpg",
+  avatar: profileFormal,
 };
