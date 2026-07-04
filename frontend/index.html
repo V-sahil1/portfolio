@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/image/profile.png" />
+
+    <!-- Primary Meta Tags -->
+    <title>Sahil Vardekar — Backend-focused Full-Stack Developer</title>
+    <meta name="title" content="Sahil Vardekar — Backend-focused Full-Stack Developer" />
+    <meta
+      name="description"
+      content="Backend-focused full-stack developer working in Node.js, Express, and PostgreSQL. I design REST APIs, authentication systems, and database schemas — and ship the React and Next.js frontends on top."
+    />
+    <meta name="author" content="Sahil Vardekar" />
+    <meta
+      name="keywords"
+      content="Sahil Vardekar, Backend Developer, Node.js Developer, Full-Stack Developer, Express, PostgreSQL, REST API, JWT, Redis, Sequelize, Next.js, React"
+    />
+    <meta name="theme-color" content="#0b1120" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sahil Vardekar — Backend-focused Full-Stack Developer" />
+    <meta
+      property="og:description"
+      content="Backend-focused full-stack developer — Node.js, Express, PostgreSQL, REST APIs, auth."
+    />
+    <meta property="og:image" content="/image/profile.png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sahil Vardekar — Backend-focused Full-Stack Developer" />
+    <meta
+      name="twitter:description"
+      content="Backend-focused full-stack developer — Node.js, Express, PostgreSQL, REST APIs, auth."
+    />
+    <meta name="twitter:image" content="/image/profile.png" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- No-flash theme init: sets .dark before first paint -->
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('theme');
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (stored === 'dark' || (!stored && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

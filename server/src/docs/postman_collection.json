@@ -1,0 +1,61 @@
+{
+  "info": {
+    "name": "Portfolio Contact API",
+    "description": "Contact-form backend: stores submissions in PostgreSQL and notifies via WhatsApp. Set {{baseUrl}} (e.g. http://localhost:5000/api/v1). Admin login auto-saves {{token}}.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "baseUrl", "value": "http://localhost:5000/api/v1" },
+    { "key": "token", "value": "" }
+  ],
+  "item": [
+    {
+      "name": "Health",
+      "request": { "method": "GET", "url": "{{baseUrl}}/health" }
+    },
+    {
+      "name": "Submit Contact",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": "{{baseUrl}}/contact",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"John Doe\",\n  \"email\": \"john@gmail.com\",\n  \"message\": \"We have a Backend Developer opportunity.\"\n}"
+        }
+      }
+    },
+    {
+      "name": "Admin Login",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "const res = pm.response.json();",
+              "if (res.data && res.data.token) pm.collectionVariables.set('token', res.data.token);"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": "{{baseUrl}}/auth/login",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"admin@portfolio.local\",\n  \"password\": \"Admin@12345\"\n}"
+        }
+      }
+    },
+    {
+      "name": "List Contacts (admin)",
+      "request": {
+        "method": "GET",
+        "header": [{ "key": "Authorization", "value": "Bearer {{token}}" }],
+        "url": "{{baseUrl}}/contacts?page=1&limit=20"
+      }
+    }
+  ]
+}
