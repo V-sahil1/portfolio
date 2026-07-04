@@ -1,12 +1,52 @@
-# React + Vite
+# Sahil Vardekar — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, fully responsive portfolio for a **Full-Stack MERN + TypeScript Developer**, built with React 19, TypeScript, Vite and Tailwind CSS v4. Features a data-driven architecture, dark/light mode, GSAP scroll animations, and an SEO- and accessibility-conscious design.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React 19** + **TypeScript** (strict)
+- **Vite 7** with `@` path alias
+- **Tailwind CSS v4** (CSS-first config, class-based dark mode)
+- **GSAP** (ScrollTrigger) for scroll reveals
+- **react-router-dom 7** with lazy-loaded routes
+- **react-icons** for the tech/skill iconography
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev        # start dev server
+npm run build      # typecheck (tsc -b) + production build
+npm run preview    # preview the production build
+npm run lint       # eslint
+npm run typecheck  # tsc --noEmit
+```
+
+## Project Structure
+
+```
+src/
+├─ components/
+│  ├─ layout/      Navbar, Footer
+│  ├─ sections/    Hero, About, Skills, Projects, Experience, Education, Certifications, Contact
+│  └─ ui/          Reusable primitives (Button, Card, Section, Reveal, Badge, …)
+├─ data/           ← Edit these typed files to update content
+│  ├─ site.ts          name, role, summary, resume, email
+│  ├─ projects.ts      project list (set `featured: true` to show on home)
+│  ├─ skills.ts        categorised skills with icons
+│  ├─ certifications.ts
+│  ├─ experience.ts
+│  ├─ education.ts
+│  ├─ socials.ts
+│  └─ navigation.ts
+├─ hooks/          useTheme, useScrollSpy
+├─ lib/            utils (cn)
+├─ pages/          HomePage, ProjectsPage, NotFound
+└─ types/          Shared TypeScript interfaces
+```
+
+## Updating Content
+
+All content lives in `src/data/*.ts` — no markup edits required. For example, to add a
+project, append an entry to `projects.ts`; to change your summary or resume link, edit
+`site.ts`. Everything is typed, so your editor will guide you.
