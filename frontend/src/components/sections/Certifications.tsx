@@ -14,7 +14,7 @@ export function Certifications() {
         align="left"
       />
 
-      <ul className="mt-12 grid gap-px overflow-hidden rounded-2xl border border-slate-200 bg-slate-200 sm:grid-cols-2 lg:grid-cols-3 dark:border-white/[0.08] dark:bg-white/[0.08]">
+      <ul className="mt-12 grid gap-px overflow-hidden rounded-2xl border border-slate-200 bg-slate-200 sm:grid-cols-2 dark:border-white/[0.08] dark:bg-white/[0.08]">
         {certifications.map((cert, i) => (
           <li key={cert.id} className="bg-white dark:bg-slate-900/40">
             <Reveal delay={i * 0.06} y={16}>

@@ -38,7 +38,7 @@ export const projects: Project[] = [
       "DELETE /api/v1/projects/:id        → 403 Forbidden (RBAC)",
     ],
     tech: ["Node.js", "Express", "JWT", "RBAC", "Redis", "Swagger"],
-    github: "https://github.com/V-sahil1",
+    github: "https://github.com/V-sahil1/PostCore",
     category: "Backend",
     featured: true,
   },
@@ -53,7 +53,7 @@ export const projects: Project[] = [
     tech: ["Auth", "Google OAuth", "REST APIs", "CI/CD", "React"],
     github: "https://github.com/V-sahil1/opti-care",
     demo: "https://opti-care-zeta.vercel.app/",
-    category: "Full-Stack",
+    category: "Frontend",
     featured: true,
   },
   {
@@ -70,6 +70,58 @@ export const projects: Project[] = [
     category: "AI",
     featured: true,
   },
+    {
+    id: 5,
+    name: "Mojito | Crafted with GSAP",
+    tagline: "Sip the Spirit of Summer",
+    arch: "GSAP · React.js · Responsive Design",
+    description:
+      "A modern animated landing page built with React.js and GSAP, featuring smooth scroll animations, immersive interactions, and a fully responsive design.",
+    image: "/image/mojito.png",
+    tech: ["React.js", "JavaScript", "GSAP", "Tailwind CSS"],
+    github: "https://github.com/V-sahil1/mojitor",
+    demo: "https://mojito-theta.vercel.app/",
+    category: "GSAP",
+    featured: true,
+  },
+{
+  id: 6,
+  name: "TOMATO | Food Delivery Platform",
+  tagline: "Order Fresh Food, Delivered Fast",
+  arch: "React.js · Context API · Tailwind CSS · Vite",
+  description:
+    "A modern food delivery application featuring restaurant browsing, category-based filtering, cart management, responsive UI, and a seamless ordering experience built with React.",
+  image: "/image/Tomato.png",
+  tech: [
+    "React.js",
+    "JavaScript",
+    "Tailwind CSS",
+    "Context API"
+  ],
+  github: "https://github.com/V-sahil1/Food-Delivery",
+  demo: "https://food-delivery-jet-kappa.vercel.app/",
+  category: "Frontend",
+  featured: true,
+},
+{
+  id: 7,
+  name: "TripNest | Hostel Booking Platform",
+  tagline: "Find, Compare & Book Hostels with Ease",
+  arch: "React.js · Tailwind CSS · Context API · Responsive Design",
+  description:
+    "A modern hostel booking platform that enables users to browse hostels, view detailed property information, search by destination, and book accommodations through a clean, responsive interface.",
+  image: "/image/Tripnest.png",
+  tech: [
+    "React.js",
+    "JavaScript",
+    "Tailwind CSS",
+    "Context API"
+  ],
+  github: "https://github.com/V-sahil1/TripNest",
+  demo: "https://tripnest.vercel.app/",
+  category: "Frontend",
+  featured: true,
+},
 ];
 
 export const featuredProjects = projects.filter((p) => p.featured);

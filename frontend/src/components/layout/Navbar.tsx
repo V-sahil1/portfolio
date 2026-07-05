@@ -100,7 +100,7 @@ export function Navbar() {
             rel="noopener noreferrer"
             className="hidden rounded-lg border border-slate-300 px-3.5 py-1.5 text-sm font-medium text-slate-700 transition-colors hover:border-brand-400 hover:text-brand-600 md:inline-flex dark:border-white/[0.12] dark:text-slate-200 dark:hover:border-brand-400/60"
           >
-            Résumé
+            Resume
           </a>
           <ThemeToggle />
           <button
@@ -141,7 +141,7 @@ export function Navbar() {
               onClick={() => setOpen(false)}
               className="block w-full rounded-lg px-3 py-2.5 text-left text-base font-medium text-brand-600 hover:bg-slate-100 dark:text-brand-300 dark:hover:bg-white/10"
             >
-              Résumé ↗
+              Resume ↗
             </a>
           </li>
         </ul>

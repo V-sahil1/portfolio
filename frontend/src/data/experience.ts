@@ -7,10 +7,10 @@ import type { ExperienceItem } from "@/types";
 export const experience: ExperienceItem[] = [
   {
     id: 1,
-    role: "MERN Developer Intern",
+    role: "MERN Developer",
     company: "CodeLamda Technologies",
     period: "Jan 2026 — Present",
-    location: "Remote",
+    location: "Surat",
     type: "Internship",
     variant: "primary",
     points: [

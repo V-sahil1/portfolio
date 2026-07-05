@@ -23,9 +23,17 @@ import {
   SiPostman,
   SiVercel,
   SiEslint,
+  SiClaude,
 } from "react-icons/si";
 import { TbApi, TbShieldLock, TbListCheck } from "react-icons/tb";
-import { LuServer, LuDatabase, LuLayoutDashboard, LuCode, LuWrench } from "react-icons/lu";
+import {
+  LuServer,
+  LuDatabase,
+  LuLayoutDashboard,
+  LuCode,
+  LuWrench,
+  LuRocket,
+} from "react-icons/lu";
 import type { SkillCategory } from "@/types";
 
 /**
@@ -100,6 +108,8 @@ export const skillCategories: SkillCategory[] = [
       { name: "Postman", icon: SiPostman, color: "#FF6C37" },
       { name: "Vercel", icon: SiVercel, color: "#94a3b8" },
       { name: "ESLint", icon: SiEslint, color: "#4B32C3" },
+      { name: "Claude Code", icon: SiClaude, color: "#D97757" },
+      { name: "Antigravity", icon: LuRocket, color: "#4285F4" },
     ],
   },
 ];

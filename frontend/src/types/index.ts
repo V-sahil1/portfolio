@@ -24,7 +24,7 @@ export interface SkillCategory {
   skills: Skill[];
 }
 
-export type ProjectCategory = "Full-Stack" | "Frontend" | "Backend" | "AI";
+export type ProjectCategory = "Full-Stack" | "Frontend" | "Backend" | "AI" |"GSAP";
 
 export interface Project {
   id: number;

@@ -32,7 +32,7 @@ export function About() {
     <Section id="about">
       <SectionHeading
         eyebrow="Who I am"
-        title="I work from the database up"
+        title="Backend-Driven Full-Stack Engineer"
         align="left"
       />
 
@@ -40,14 +40,14 @@ export function About() {
         {/* Portrait */}
         <Reveal className="lg:col-span-2" y={16}>
           <div className="relative mx-auto max-w-xs sm:max-w-sm">
-            <div className="aspect-[4/5] w-full overflow-hidden rounded-2xl border border-slate-200 dark:border-white/[0.08]">
+            <div className="aspect-[3/4] w-full overflow-hidden rounded-2xl border border-slate-200 sm:aspect-[4/6] dark:border-white/[0.08]">
               <img
                 src={site.avatar}
                 alt={`Portrait of ${site.name}`}
                 loading="lazy"
                 width={420}
                 height={525}
-                className="h-full w-full object-cover object-top"
+                className="h-full w-full object-cover object-[50%_35%]"
               />
             </div>
             <div className="surface absolute -bottom-4 left-4 rounded-lg px-3 py-2">
@@ -70,7 +70,7 @@ export function About() {
               — then I build the React and Next.js frontends that consume them.
             </p>
             <p className="mt-4 max-w-[62ch] leading-relaxed text-slate-600 dark:text-slate-400">
-              I'm currently a MERN developer intern at{" "}
+              I'm currently a MERN developer  at{" "}
               <strong className="font-medium text-slate-800 dark:text-slate-200">
                 CodeLamda Technologies
               </strong>

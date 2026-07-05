@@ -28,4 +28,13 @@ export const certifications: Certification[] = [
       "Comprehensive coverage of JavaScript from fundamentals through advanced concepts, async patterns and the DOM.",
     url: "https://drive.google.com/file/d/1iTnC351N4NkAzqthX6Nkr2fWgJOPDka4/view?usp=drive_link",
   },
+  {
+    id: 4,
+    name: "Java",
+    org: "Scaler",
+    image: "/image/scaler.png",
+    description:
+      "Core Java covering OOP principles, collections, exception handling, multithreading and the JVM ecosystem.",
+    url: "https://drive.google.com/file/d/1o2mvGJ1zNOcoZkvCgHKP1HZnQ_FZ4t4J/view?usp=sharing",
+  },
 ];

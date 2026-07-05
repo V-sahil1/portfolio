@@ -66,7 +66,7 @@ export function Hero() {
                   variant="secondary"
                   size="lg"
                 >
-                  Résumé <MdOutlineFileDownload className="h-5 w-5" />
+                  Resume <MdOutlineFileDownload className="h-5 w-5" />
                 </Button>
               </div>
             </Reveal>
