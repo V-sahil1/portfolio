@@ -28,6 +28,6 @@ export const site: SiteConfig = {
   email: "sahil.vardekar@gmail.com",
   location: "Surat, India",
   resumeUrl:
-    "https://drive.google.com/file/d/1UPbVnhrYM3noI-lMIFpmppBHF_NTdxcd/view?usp=sharing",
+    "https://drive.google.com/file/d/1AoITc6HWZZ37jDEDhnPG2we7xO0BfXDi/view?usp=sharing",
   avatar: profileFormal,
 };
